@@ -25,8 +25,10 @@ int main() {
     int  pointsCidadeA01  ,pointsCidadeA02  ,pointsCidadeA03  ,pointsCidadeA04;
 
     printf("Digite o nome da Cidade 01:\n");
-    scanf(" %S",&nomeCidadeA01);
+    //Aqui voce usou %S ao invés de %s e precisa colocar um espaço após o s
+    scanf(" %s",&nomeCidadeA01);
     printf("Digite o codigo da Cidade 01:\n");
+    //O codigo é letra e numero, não pode ser %d
     scanf("%d",&codigoCidadeA01);
     printf("Digite a populacao da Cidade 01:\n");
     scanf("%d",&populacaoCidadeA01);
