@@ -65,6 +65,7 @@ void MostrarDados(char numeroCidade[],char nomeCidade[],char codigoCidade[],int 
 float CalcularSuperPoder(int populacaoCidade,int pointsCidade,float areaCidade,float pibCidade,float densidadePopulacional, float pibPerCapita)
 {
     float resultado=0.0;
+    //Sim, essa é a ideia do super poder, somar todas as propriedades.
     resultado=populacaoCidade+pointsCidade+areaCidade+pibCidade+densidadePopulacional+pibPerCapita;
     return resultado;
 }
